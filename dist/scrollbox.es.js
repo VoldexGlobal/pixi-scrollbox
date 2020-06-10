@@ -352,6 +352,7 @@ class Scrollbox extends Container
          * graphics element for drawing the scrollbars
          * @type {PIXI.Graphics}
          */
+        // Voldex
         this.scrollbar = this.addChild(new Graphics());
         this.scrollbar.interactive = true;
         this.scrollbar.on('pointerdown', this.scrollbarDown, this);

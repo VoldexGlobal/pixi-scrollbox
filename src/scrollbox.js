@@ -100,6 +100,7 @@ export class Scrollbox extends PIXI.Container
          * graphics element for drawing the scrollbars
          * @type {PIXI.Graphics}
          */
+        // Voldex
         this.scrollbar = this.addChild(new PIXI.Graphics())
         this.scrollbar.interactive = true
         this.scrollbar.on('pointerdown', this.scrollbarDown, this)
